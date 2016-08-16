@@ -33,6 +33,11 @@ removes a class from an element.
 #### .find(selector) ####
 `DOMinateObject.find(selector)` returns a `DOMinate` object containing all elements matching the selector that are descendants any nodes within `DOMinateObject`.
 
-
 #### .remove() ####
 `DOMinateObject.remove()` will remove all elements and related descendants within the `DOMinateObject`.
+
+#### .on(eventType, callback) ####
+`DOMinateObject.on()` will add a callback method to the `DOMinateObject` whenever the event of `eventType` occurs.
+
+#### .ajax({ options }) ####
+`DOMinateObject.ajax()` will make an ajax http request with the given options.
