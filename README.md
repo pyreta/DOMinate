@@ -25,8 +25,11 @@ $d("li")
 Passing in an HTML element to `$d()` will return an array of one HTML element wrapped in DOMinate object:
 
 ```javascript
-$d(document.getElementById("select")) 
+$d(document.getElementById("select"))
 // will return a DOMinate object containing the one "li" HTML element which has the id of "select"
 ```
 
 A function passed to `$d()` will be added to a queue and then called as soon as the page has fully loaded.  If a function is passed to `$d()` after the DOM has loaded, then it will be called immediately.
+
+[Click here for documentation][ar-lite]
+[ar-lite]: ./assets/DOMinate_documentation
