@@ -32,4 +32,4 @@ $d(document.getElementById("select"))
 A function passed to `$d()` will be added to a queue and then called as soon as the page has fully loaded.  If a function is passed to `$d()` after the DOM has loaded, then it will be called immediately.
 
 [Click here for documentation][docu]
-[docu]: https://github.com/pyreta/DOMinate/tree/master/assets
+[docu]: https://github.com/pyreta/DOMinate/tree/master/assets/documentation
