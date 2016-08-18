@@ -1,10 +1,10 @@
 # DOMinate
 
-DOMinate is a simple lightweight JavaScript library based on jQuery.
+DOMinate is a simple lightweight JavaScript library used for Document Object Model manipulation.
 
 ## Using DOMinate
 
-DOMinate is almost entirely based around a single function; `$d()`.  Much like the `$()` function in jQuery, this is a dynamic function that has multiple operations depending on the arguments passed in.
+DOMinate is almost entirely based around a single function; `$d()`.  This is a dynamic function that has multiple operations depending on the arguments passed in.
 
 The `$d()` function can take a string, an HTML element, or a function.  Each argument type returns has a different behavior.
 
